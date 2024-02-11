@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Courier Prime', sans-serif;
+    font-size: 10px;
+    background-color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 32px; 
+    color: lawngreen; 
+}
+
+p {
+    font-size: 20px; 
+    color: sienna;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    padding: 2px;
+}
+
+li {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+p1 {
+    font-size: 20px;
+    color: plum;
+    text-align: center;
+}
+
+p1:hover {
+    text-decoration: darkgreen;
+    background: white;
+}
+
+footer {
+    margin-top: 30px;
+    color: darkorchid;
+}
+
+@media only screen and (min-width: 600px ) and (orientation: landscape) 
+or (max-width: 600px ) and (orientation: portrait) {
+    
+}
